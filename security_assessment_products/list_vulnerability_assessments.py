@@ -16,4 +16,5 @@ bugs = bugzilla.search_for\
         .search()
 
 for bug in bugs:
-	print("[" + bug.status + "] " + str(bug.id) + " " + bug.summary)
+	if bug.status == "RESOLVED" and bug.resolution == "FIXED":
+		print("[" + bug.status + "] " + str(bug.id) + " " + bug.summary)
