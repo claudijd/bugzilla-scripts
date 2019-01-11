@@ -81,7 +81,7 @@ for bug in va_metrics:
 
 print("- {} vulnerability assessments were invalid.".format(invalid_vas))
 
-# How many vulnerability assessments have are in progress?
+# How many vulnerability assessments are in progress?
 inprogress_vas = 0
 
 for bug in va_metrics:
@@ -159,7 +159,7 @@ for bug in va_metrics_30:
 
 print("- {} vulnerability assessments were invalid.".format(invalid_vas_30))
 
-# How many vulnerability assessments have are in progress?
+# How many vulnerability assessments are in progress?
 inprogress_vas_30 = 0
 
 for bug in va_metrics_30:
